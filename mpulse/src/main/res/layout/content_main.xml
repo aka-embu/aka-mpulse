@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal|center_vertical">
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Click below buttons"
+            android:id="@+id/fake"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Enabled"
+            android:id="@+id/enabled"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickEnabled" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Disabled"
+            android:id="@+id/disabled"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickDisabled" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Intialize with Different Key"
+            android:id="@+id/initialize"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickInitializeWithDifferentKey" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Enable N/W monitoring"
+            android:id="@+id/enablenw"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickEnableNW" />
+
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Disable N/W monitoring"
+            android:id="@+id/disablenw"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickDisableNW" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Enable Filtered N/W monitoring"
+            android:id="@+id/enablefilternw"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickEnableFilteredNW" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Http GET Demo"
+            android:id="@+id/httpurlConnDemo"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickHttpGET" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Https GET Demo"
+            android:id="@+id/httpsurlConnDemo"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickHttpsGET" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="POST Demo"
+            android:id="@+id/urlConnPostDemo"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickPOST" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="View Group"
+            android:id="@+id/viewgroup"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickViewGroup" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="View Group with no reset"
+            android:id="@+id/viewgroupnoreset"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickViewGroupWithoutReset" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Auto Action"
+            android:id="@+id/actionautonosetting"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickActionAutoNoSettings" />
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Auto Action - Settings"
+            android:id="@+id/actionauto"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickActionAutoTimeout" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Action - with stop"
+            android:id="@+id/actionwithstop"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickActionWithStop" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Metric"
+            android:id="@+id/metric"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickMetric" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Metric - with action"
+            android:id="@+id/metricWithAction"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickMetricWithAction" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Timer Start/Stop"
+            android:id="@+id/timer"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickTimer" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Send Timer"
+            android:id="@+id/sendTimer"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickSendTimer" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Send Timer with Action"
+            android:id="@+id/sendTimerWithAction"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickSendTimerWithAction" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Dimension"
+            android:id="@+id/dimension"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickDimension" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="A/B test"
+            android:id="@+id/setabtest"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickABTest" />
+
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Toggle Debug Mode"
+            android:id="@+id/debugMode"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickDebugMode" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="OkHttp"
+            android:id="@+id/okhttp"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickOkHttp" />
+
+
+
+    </LinearLayout>
+</ScrollView>
